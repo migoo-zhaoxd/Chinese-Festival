@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Spring Cleaning Day/Spring Cleaning Day.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Teacher&apos;s Day/Teacher&apos;s Day.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:International Children&apos;s Day/International Children&apos;s Day.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:International Labour Day/International Labour Day.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:China Arbor Day/China Arbor Day.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:The laba Rice Porridge Festival/The laba Rice Porridge Festival.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:The Double Ninth Festival/The Double Ninth Festival.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:The Mid-Autumn Festival/The Mid-Autumn Festival.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Double-Seventh Day/Double-Seventh Day.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:The Dragon-Boat Festival/The Dragon-Boat Festival.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lantern Festival/Lantern Festival.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:The Spring Festival/The Spring Festival.xcodeproj">
+   </FileRef>
+</Workspace>

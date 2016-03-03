@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8B292EA1C888D6D00776C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292E91C888D6D00776C67 /* AppDelegate.swift */; };
+		E8B292EC1C888D6D00776C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292EB1C888D6D00776C67 /* ViewController.swift */; };
+		E8B292EF1C888D6D00776C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B292ED1C888D6D00776C67 /* Main.storyboard */; };
+		E8B292F11C888D6D00776C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B292F01C888D6D00776C67 /* Assets.xcassets */; };
+		E8B292F41C888D6D00776C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B292F21C888D6D00776C67 /* LaunchScreen.storyboard */; };
+		E8B292FF1C888D6E00776C67 /* International_Labour_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292FE1C888D6E00776C67 /* International_Labour_DayTests.swift */; };
+		E8B2930A1C888D6E00776C67 /* International_Labour_DayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B293091C888D6E00776C67 /* International_Labour_DayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8B292FB1C888D6E00776C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8B292DE1C888D6D00776C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B292E51C888D6D00776C67;
+			remoteInfo = "International Labour Day";
+		};
+		E8B293061C888D6E00776C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8B292DE1C888D6D00776C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B292E51C888D6D00776C67;
+			remoteInfo = "International Labour Day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8B292E61C888D6D00776C67 /* International Labour Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "International Labour Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B292E91C888D6D00776C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8B292EB1C888D6D00776C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8B292EE1C888D6D00776C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8B292F01C888D6D00776C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8B292F31C888D6D00776C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8B292F51C888D6D00776C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B292FA1C888D6E00776C67 /* International Labour DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "International Labour DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B292FE1C888D6E00776C67 /* International_Labour_DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = International_Labour_DayTests.swift; sourceTree = "<group>"; };
+		E8B293001C888D6E00776C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B293051C888D6E00776C67 /* International Labour DayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "International Labour DayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B293091C888D6E00776C67 /* International_Labour_DayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = International_Labour_DayUITests.swift; sourceTree = "<group>"; };
+		E8B2930B1C888D6E00776C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8B292E31C888D6D00776C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B292F71C888D6E00776C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B293021C888D6E00776C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8B292DD1C888D6D00776C67 = {
+			isa = PBXGroup;
+			children = (
+				E8B292E81C888D6D00776C67 /* International Labour Day */,
+				E8B292FD1C888D6E00776C67 /* International Labour DayTests */,
+				E8B293081C888D6E00776C67 /* International Labour DayUITests */,
+				E8B292E71C888D6D00776C67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8B292E71C888D6D00776C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8B292E61C888D6D00776C67 /* International Labour Day.app */,
+				E8B292FA1C888D6E00776C67 /* International Labour DayTests.xctest */,
+				E8B293051C888D6E00776C67 /* International Labour DayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8B292E81C888D6D00776C67 /* International Labour Day */ = {
+			isa = PBXGroup;
+			children = (
+				E8B292E91C888D6D00776C67 /* AppDelegate.swift */,
+				E8B292EB1C888D6D00776C67 /* ViewController.swift */,
+				E8B292ED1C888D6D00776C67 /* Main.storyboard */,
+				E8B292F01C888D6D00776C67 /* Assets.xcassets */,
+				E8B292F21C888D6D00776C67 /* LaunchScreen.storyboard */,
+				E8B292F51C888D6D00776C67 /* Info.plist */,
+			);
+			path = "International Labour Day";
+			sourceTree = "<group>";
+		};
+		E8B292FD1C888D6E00776C67 /* International Labour DayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8B292FE1C888D6E00776C67 /* International_Labour_DayTests.swift */,
+				E8B293001C888D6E00776C67 /* Info.plist */,
+			);
+			path = "International Labour DayTests";
+			sourceTree = "<group>";
+		};
+		E8B293081C888D6E00776C67 /* International Labour DayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8B293091C888D6E00776C67 /* International_Labour_DayUITests.swift */,
+				E8B2930B1C888D6E00776C67 /* Info.plist */,
+			);
+			path = "International Labour DayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8B292E51C888D6D00776C67 /* International Labour Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B2930E1C888D6E00776C67 /* Build configuration list for PBXNativeTarget "International Labour Day" */;
+			buildPhases = (
+				E8B292E21C888D6D00776C67 /* Sources */,
+				E8B292E31C888D6D00776C67 /* Frameworks */,
+				E8B292E41C888D6D00776C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "International Labour Day";
+			productName = "International Labour Day";
+			productReference = E8B292E61C888D6D00776C67 /* International Labour Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8B292F91C888D6E00776C67 /* International Labour DayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B293111C888D6E00776C67 /* Build configuration list for PBXNativeTarget "International Labour DayTests" */;
+			buildPhases = (
+				E8B292F61C888D6E00776C67 /* Sources */,
+				E8B292F71C888D6E00776C67 /* Frameworks */,
+				E8B292F81C888D6E00776C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8B292FC1C888D6E00776C67 /* PBXTargetDependency */,
+			);
+			name = "International Labour DayTests";
+			productName = "International Labour DayTests";
+			productReference = E8B292FA1C888D6E00776C67 /* International Labour DayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8B293041C888D6E00776C67 /* International Labour DayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B293141C888D6E00776C67 /* Build configuration list for PBXNativeTarget "International Labour DayUITests" */;
+			buildPhases = (
+				E8B293011C888D6E00776C67 /* Sources */,
+				E8B293021C888D6E00776C67 /* Frameworks */,
+				E8B293031C888D6E00776C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8B293071C888D6E00776C67 /* PBXTargetDependency */,
+			);
+			name = "International Labour DayUITests";
+			productName = "International Labour DayUITests";
+			productReference = E8B293051C888D6E00776C67 /* International Labour DayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8B292DE1C888D6D00776C67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Migoo Technology";
+				TargetAttributes = {
+					E8B292E51C888D6D00776C67 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E8B292F91C888D6E00776C67 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E8B292E51C888D6D00776C67;
+					};
+					E8B293041C888D6E00776C67 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E8B292E51C888D6D00776C67;
+					};
+				};
+			};
+			buildConfigurationList = E8B292E11C888D6D00776C67 /* Build configuration list for PBXProject "International Labour Day" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8B292DD1C888D6D00776C67;
+			productRefGroup = E8B292E71C888D6D00776C67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8B292E51C888D6D00776C67 /* International Labour Day */,
+				E8B292F91C888D6E00776C67 /* International Labour DayTests */,
+				E8B293041C888D6E00776C67 /* International Labour DayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8B292E41C888D6D00776C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B292F41C888D6D00776C67 /* LaunchScreen.storyboard in Resources */,
+				E8B292F11C888D6D00776C67 /* Assets.xcassets in Resources */,
+				E8B292EF1C888D6D00776C67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B292F81C888D6E00776C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B293031C888D6E00776C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8B292E21C888D6D00776C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B292EC1C888D6D00776C67 /* ViewController.swift in Sources */,
+				E8B292EA1C888D6D00776C67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B292F61C888D6E00776C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B292FF1C888D6E00776C67 /* International_Labour_DayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B293011C888D6E00776C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B2930A1C888D6E00776C67 /* International_Labour_DayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8B292FC1C888D6E00776C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8B292E51C888D6D00776C67 /* International Labour Day */;
+			targetProxy = E8B292FB1C888D6E00776C67 /* PBXContainerItemProxy */;
+		};
+		E8B293071C888D6E00776C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8B292E51C888D6D00776C67 /* International Labour Day */;
+			targetProxy = E8B293061C888D6E00776C67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8B292ED1C888D6D00776C67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8B292EE1C888D6D00776C67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8B292F21C888D6D00776C67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8B292F31C888D6D00776C67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8B2930C1C888D6E00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8B2930D1C888D6E00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8B2930F1C888D6E00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "International Labour Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.International-Labour-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8B293101C888D6E00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "International Labour Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.International-Labour-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8B293121C888D6E00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "International Labour DayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.International-Labour-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/International Labour Day.app/International Labour Day";
+			};
+			name = Debug;
+		};
+		E8B293131C888D6E00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "International Labour DayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.International-Labour-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/International Labour Day.app/International Labour Day";
+			};
+			name = Release;
+		};
+		E8B293151C888D6E00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "International Labour DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.International-Labour-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "International Labour Day";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E8B293161C888D6E00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "International Labour DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.International-Labour-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "International Labour Day";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8B292E11C888D6D00776C67 /* Build configuration list for PBXProject "International Labour Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B2930C1C888D6E00776C67 /* Debug */,
+				E8B2930D1C888D6E00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8B2930E1C888D6E00776C67 /* Build configuration list for PBXNativeTarget "International Labour Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B2930F1C888D6E00776C67 /* Debug */,
+				E8B293101C888D6E00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8B293111C888D6E00776C67 /* Build configuration list for PBXNativeTarget "International Labour DayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B293121C888D6E00776C67 /* Debug */,
+				E8B293131C888D6E00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8B293141C888D6E00776C67 /* Build configuration list for PBXNativeTarget "International Labour DayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B293151C888D6E00776C67 /* Debug */,
+				E8B293161C888D6E00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8B292DE1C888D6D00776C67 /* Project object */;
+}

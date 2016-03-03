@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8B292021C888CEA00776C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292011C888CEA00776C67 /* AppDelegate.swift */; };
+		E8B292041C888CEA00776C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292031C888CEA00776C67 /* ViewController.swift */; };
+		E8B292071C888CEA00776C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B292051C888CEA00776C67 /* Main.storyboard */; };
+		E8B292091C888CEA00776C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B292081C888CEA00776C67 /* Assets.xcassets */; };
+		E8B2920C1C888CEA00776C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B2920A1C888CEA00776C67 /* LaunchScreen.storyboard */; };
+		E8B292171C888CEA00776C67 /* The_Mid_Autumn_FestivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292161C888CEA00776C67 /* The_Mid_Autumn_FestivalTests.swift */; };
+		E8B292221C888CEA00776C67 /* The_Mid_Autumn_FestivalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292211C888CEA00776C67 /* The_Mid_Autumn_FestivalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8B292131C888CEA00776C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8B291F61C888CEA00776C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B291FD1C888CEA00776C67;
+			remoteInfo = "The Mid-Autumn Festival";
+		};
+		E8B2921E1C888CEA00776C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8B291F61C888CEA00776C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B291FD1C888CEA00776C67;
+			remoteInfo = "The Mid-Autumn Festival";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8B291FE1C888CEA00776C67 /* The Mid-Autumn Festival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Mid-Autumn Festival.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B292011C888CEA00776C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8B292031C888CEA00776C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8B292061C888CEA00776C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8B292081C888CEA00776C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8B2920B1C888CEA00776C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8B2920D1C888CEA00776C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B292121C888CEA00776C67 /* The Mid-Autumn FestivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Mid-Autumn FestivalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B292161C888CEA00776C67 /* The_Mid_Autumn_FestivalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Mid_Autumn_FestivalTests.swift; sourceTree = "<group>"; };
+		E8B292181C888CEA00776C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B2921D1C888CEA00776C67 /* The Mid-Autumn FestivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Mid-Autumn FestivalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B292211C888CEA00776C67 /* The_Mid_Autumn_FestivalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Mid_Autumn_FestivalUITests.swift; sourceTree = "<group>"; };
+		E8B292231C888CEA00776C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8B291FB1C888CEA00776C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B2920F1C888CEA00776C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B2921A1C888CEA00776C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8B291F51C888CEA00776C67 = {
+			isa = PBXGroup;
+			children = (
+				E8B292001C888CEA00776C67 /* The Mid-Autumn Festival */,
+				E8B292151C888CEA00776C67 /* The Mid-Autumn FestivalTests */,
+				E8B292201C888CEA00776C67 /* The Mid-Autumn FestivalUITests */,
+				E8B291FF1C888CEA00776C67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8B291FF1C888CEA00776C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8B291FE1C888CEA00776C67 /* The Mid-Autumn Festival.app */,
+				E8B292121C888CEA00776C67 /* The Mid-Autumn FestivalTests.xctest */,
+				E8B2921D1C888CEA00776C67 /* The Mid-Autumn FestivalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8B292001C888CEA00776C67 /* The Mid-Autumn Festival */ = {
+			isa = PBXGroup;
+			children = (
+				E8B292011C888CEA00776C67 /* AppDelegate.swift */,
+				E8B292031C888CEA00776C67 /* ViewController.swift */,
+				E8B292051C888CEA00776C67 /* Main.storyboard */,
+				E8B292081C888CEA00776C67 /* Assets.xcassets */,
+				E8B2920A1C888CEA00776C67 /* LaunchScreen.storyboard */,
+				E8B2920D1C888CEA00776C67 /* Info.plist */,
+			);
+			path = "The Mid-Autumn Festival";
+			sourceTree = "<group>";
+		};
+		E8B292151C888CEA00776C67 /* The Mid-Autumn FestivalTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8B292161C888CEA00776C67 /* The_Mid_Autumn_FestivalTests.swift */,
+				E8B292181C888CEA00776C67 /* Info.plist */,
+			);
+			path = "The Mid-Autumn FestivalTests";
+			sourceTree = "<group>";
+		};
+		E8B292201C888CEA00776C67 /* The Mid-Autumn FestivalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8B292211C888CEA00776C67 /* The_Mid_Autumn_FestivalUITests.swift */,
+				E8B292231C888CEA00776C67 /* Info.plist */,
+			);
+			path = "The Mid-Autumn FestivalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8B291FD1C888CEA00776C67 /* The Mid-Autumn Festival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B292261C888CEA00776C67 /* Build configuration list for PBXNativeTarget "The Mid-Autumn Festival" */;
+			buildPhases = (
+				E8B291FA1C888CEA00776C67 /* Sources */,
+				E8B291FB1C888CEA00776C67 /* Frameworks */,
+				E8B291FC1C888CEA00776C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Mid-Autumn Festival";
+			productName = "The Mid-Autumn Festival";
+			productReference = E8B291FE1C888CEA00776C67 /* The Mid-Autumn Festival.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8B292111C888CEA00776C67 /* The Mid-Autumn FestivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B292291C888CEA00776C67 /* Build configuration list for PBXNativeTarget "The Mid-Autumn FestivalTests" */;
+			buildPhases = (
+				E8B2920E1C888CEA00776C67 /* Sources */,
+				E8B2920F1C888CEA00776C67 /* Frameworks */,
+				E8B292101C888CEA00776C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8B292141C888CEA00776C67 /* PBXTargetDependency */,
+			);
+			name = "The Mid-Autumn FestivalTests";
+			productName = "The Mid-Autumn FestivalTests";
+			productReference = E8B292121C888CEA00776C67 /* The Mid-Autumn FestivalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8B2921C1C888CEA00776C67 /* The Mid-Autumn FestivalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B2922C1C888CEA00776C67 /* Build configuration list for PBXNativeTarget "The Mid-Autumn FestivalUITests" */;
+			buildPhases = (
+				E8B292191C888CEA00776C67 /* Sources */,
+				E8B2921A1C888CEA00776C67 /* Frameworks */,
+				E8B2921B1C888CEA00776C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8B2921F1C888CEA00776C67 /* PBXTargetDependency */,
+			);
+			name = "The Mid-Autumn FestivalUITests";
+			productName = "The Mid-Autumn FestivalUITests";
+			productReference = E8B2921D1C888CEA00776C67 /* The Mid-Autumn FestivalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8B291F61C888CEA00776C67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Migoo Technology";
+				TargetAttributes = {
+					E8B291FD1C888CEA00776C67 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E8B292111C888CEA00776C67 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E8B291FD1C888CEA00776C67;
+					};
+					E8B2921C1C888CEA00776C67 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E8B291FD1C888CEA00776C67;
+					};
+				};
+			};
+			buildConfigurationList = E8B291F91C888CEA00776C67 /* Build configuration list for PBXProject "The Mid-Autumn Festival" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8B291F51C888CEA00776C67;
+			productRefGroup = E8B291FF1C888CEA00776C67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8B291FD1C888CEA00776C67 /* The Mid-Autumn Festival */,
+				E8B292111C888CEA00776C67 /* The Mid-Autumn FestivalTests */,
+				E8B2921C1C888CEA00776C67 /* The Mid-Autumn FestivalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8B291FC1C888CEA00776C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B2920C1C888CEA00776C67 /* LaunchScreen.storyboard in Resources */,
+				E8B292091C888CEA00776C67 /* Assets.xcassets in Resources */,
+				E8B292071C888CEA00776C67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B292101C888CEA00776C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B2921B1C888CEA00776C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8B291FA1C888CEA00776C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B292041C888CEA00776C67 /* ViewController.swift in Sources */,
+				E8B292021C888CEA00776C67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B2920E1C888CEA00776C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B292171C888CEA00776C67 /* The_Mid_Autumn_FestivalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B292191C888CEA00776C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B292221C888CEA00776C67 /* The_Mid_Autumn_FestivalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8B292141C888CEA00776C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8B291FD1C888CEA00776C67 /* The Mid-Autumn Festival */;
+			targetProxy = E8B292131C888CEA00776C67 /* PBXContainerItemProxy */;
+		};
+		E8B2921F1C888CEA00776C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8B291FD1C888CEA00776C67 /* The Mid-Autumn Festival */;
+			targetProxy = E8B2921E1C888CEA00776C67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8B292051C888CEA00776C67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8B292061C888CEA00776C67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8B2920A1C888CEA00776C67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8B2920B1C888CEA00776C67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8B292241C888CEA00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8B292251C888CEA00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8B292271C888CEA00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Mid-Autumn Festival/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.The-Mid-Autumn-Festival";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8B292281C888CEA00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Mid-Autumn Festival/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.The-Mid-Autumn-Festival";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8B2922A1C888CEA00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The Mid-Autumn FestivalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.The-Mid-Autumn-FestivalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Mid-Autumn Festival.app/The Mid-Autumn Festival";
+			};
+			name = Debug;
+		};
+		E8B2922B1C888CEA00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The Mid-Autumn FestivalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.The-Mid-Autumn-FestivalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Mid-Autumn Festival.app/The Mid-Autumn Festival";
+			};
+			name = Release;
+		};
+		E8B2922D1C888CEA00776C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The Mid-Autumn FestivalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.The-Mid-Autumn-FestivalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Mid-Autumn Festival";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E8B2922E1C888CEA00776C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The Mid-Autumn FestivalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Migoo.The-Mid-Autumn-FestivalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Mid-Autumn Festival";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8B291F91C888CEA00776C67 /* Build configuration list for PBXProject "The Mid-Autumn Festival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B292241C888CEA00776C67 /* Debug */,
+				E8B292251C888CEA00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8B292261C888CEA00776C67 /* Build configuration list for PBXNativeTarget "The Mid-Autumn Festival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B292271C888CEA00776C67 /* Debug */,
+				E8B292281C888CEA00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8B292291C888CEA00776C67 /* Build configuration list for PBXNativeTarget "The Mid-Autumn FestivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B2922A1C888CEA00776C67 /* Debug */,
+				E8B2922B1C888CEA00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8B2922C1C888CEA00776C67 /* Build configuration list for PBXNativeTarget "The Mid-Autumn FestivalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B2922D1C888CEA00776C67 /* Debug */,
+				E8B2922E1C888CEA00776C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8B291F61C888CEA00776C67 /* Project object */;
+}
