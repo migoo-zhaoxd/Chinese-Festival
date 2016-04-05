@@ -1,25 +1,392 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bDE-AJ-8O8">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Guide View Controller-->
+        <scene sceneID="MBH-Dy-IjL">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GuideViewController" id="bDE-AJ-8O8" customClass="GuideViewController" customModule="Spring_Cleaning_Day" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="wci-Uv-Zbf"/>
+                        <viewControllerLayoutGuide type="bottom" id="13Y-OM-USH"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="YKk-Ub-bHF">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="goI-5E-Klf">
+                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebU-D3-Xwf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="开始体验"/>
+                                <connections>
+                                    <segue destination="l7F-1B-e0O" kind="showDetail" id="tBc-t1-RNi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ebU-D3-Xwf" firstAttribute="centerX" secondItem="YKk-Ub-bHF" secondAttribute="centerX" id="Hzx-an-CAe"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="goI-5E-Klf" secondAttribute="bottom" constant="10" id="LZW-OE-4ah"/>
+                            <constraint firstItem="goI-5E-Klf" firstAttribute="centerX" secondItem="YKk-Ub-bHF" secondAttribute="centerX" id="MiD-02-Az8"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ebU-D3-Xwf" secondAttribute="bottom" constant="40" id="wtq-Ug-81B"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="goI-5E-Klf"/>
+                                <exclude reference="ebU-D3-Xwf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="LZW-OE-4ah"/>
+                                <exclude reference="MiD-02-Az8"/>
+                                <exclude reference="Hzx-an-CAe"/>
+                                <exclude reference="wtq-Ug-81B"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="goI-5E-Klf"/>
+                                <include reference="ebU-D3-Xwf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="LZW-OE-4ah"/>
+                                <include reference="MiD-02-Az8"/>
+                                <include reference="Hzx-an-CAe"/>
+                                <include reference="wtq-Ug-81B"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="goI-5E-Klf" id="lV0-f8-BHh"/>
+                        <outlet property="startButton" destination="ebU-D3-Xwf" id="0b4-S7-Rpg"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aaU-uG-sUd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="298.5" y="316.5"/>
+        </scene>
+        <!--寓意-->
+        <scene sceneID="GhF-m7-DMr">
+            <objects>
+                <viewController id="DtR-2m-rEL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AX0-Wd-Axm"/>
+                        <viewControllerLayoutGuide type="bottom" id="LDK-XI-hMr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oc0-nq-etv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PHA-1P-4Jp">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="        由于扫房带着扫除晦气的意思，所以扫房时一般人家都是全家老少齐动手。虽然家中成年人是扫房的主力，但小孩和老人也都会搭把手儿，为自己讨个吉利。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ja9-eo-jCz">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="267" id="WK5-uq-DrO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WK5-uq-DrO"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="WK5-uq-DrO"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PHA-1P-4Jp" firstAttribute="leading" secondItem="ja9-eo-jCz" secondAttribute="leading" id="4yJ-Vd-boJ"/>
+                            <constraint firstItem="LDK-XI-hMr" firstAttribute="top" secondItem="ja9-eo-jCz" secondAttribute="bottom" constant="171" id="5ge-JW-0hQ"/>
+                            <constraint firstItem="PHA-1P-4Jp" firstAttribute="top" secondItem="AX0-Wd-Axm" secondAttribute="bottom" id="DX8-su-DYK"/>
+                            <constraint firstItem="ja9-eo-jCz" firstAttribute="top" secondItem="PHA-1P-4Jp" secondAttribute="bottom" constant="8" symbolic="YES" id="U2k-q0-eco"/>
+                            <constraint firstAttribute="trailing" secondItem="ja9-eo-jCz" secondAttribute="trailing" id="fVa-Ab-Xqw"/>
+                            <constraint firstItem="PHA-1P-4Jp" firstAttribute="trailing" secondItem="ja9-eo-jCz" secondAttribute="trailing" id="ks0-ND-1zB"/>
+                            <constraint firstItem="PHA-1P-4Jp" firstAttribute="leading" secondItem="oc0-nq-etv" secondAttribute="leading" id="oZk-Vz-1ge"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="PHA-1P-4Jp"/>
+                                <exclude reference="ja9-eo-jCz"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5ge-JW-0hQ"/>
+                                <exclude reference="4yJ-Vd-boJ"/>
+                                <exclude reference="DX8-su-DYK"/>
+                                <exclude reference="ks0-ND-1zB"/>
+                                <exclude reference="oZk-Vz-1ge"/>
+                                <exclude reference="U2k-q0-eco"/>
+                                <exclude reference="fVa-Ab-Xqw"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="PHA-1P-4Jp"/>
+                                <include reference="ja9-eo-jCz"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5ge-JW-0hQ"/>
+                                <include reference="4yJ-Vd-boJ"/>
+                                <include reference="DX8-su-DYK"/>
+                                <include reference="ks0-ND-1zB"/>
+                                <include reference="oZk-Vz-1ge"/>
+                                <include reference="U2k-q0-eco"/>
+                                <include reference="fVa-Ab-Xqw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="寓意" id="IH1-b6-Y5R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vAb-wM-BG6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2745" y="316.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="srN-p5-mJO">
+            <objects>
+                <viewController id="l7F-1B-e0O" customClass="ViewController" customModule="Spring_Cleaning_Day" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EUE-eR-mY5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ubj-cX-p1G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BXy-Qi-MDM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOT-XW-Neq">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mOT-XW-Neq" firstAttribute="bottom" secondItem="Ubj-cX-p1G" secondAttribute="top" id="LZQ-Gd-ErU"/>
+                            <constraint firstAttribute="trailing" secondItem="mOT-XW-Neq" secondAttribute="trailing" id="kKO-aX-kJd"/>
+                            <constraint firstItem="mOT-XW-Neq" firstAttribute="top" secondItem="EUE-eR-mY5" secondAttribute="bottom" id="oor-zp-fw6"/>
+                            <constraint firstItem="mOT-XW-Neq" firstAttribute="leading" secondItem="BXy-Qi-MDM" secondAttribute="leading" id="r0i-mO-87q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="mOT-XW-Neq"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="LZQ-Gd-ErU"/>
+                                <exclude reference="kKO-aX-kJd"/>
+                                <exclude reference="oor-zp-fw6"/>
+                                <exclude reference="r0i-mO-87q"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="mOT-XW-Neq"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="LZQ-Gd-ErU"/>
+                                <include reference="kKO-aX-kJd"/>
+                                <include reference="oor-zp-fw6"/>
+                                <include reference="r0i-mO-87q"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="wv" destination="mOT-XW-Neq" id="noj-eh-vsB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h6g-TL-DiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298.5" y="1071"/>
+        </scene>
+        <!--习俗-->
+        <scene sceneID="cEs-39-4VW">
+            <objects>
+                <viewController id="yXU-05-fUo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qDT-gs-Yvx"/>
+                        <viewControllerLayoutGuide type="bottom" id="QZf-oU-Dj8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jUF-dN-ByZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kg6-dp-p9Q">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">        扫尘——民谚说：腊月二十四，掸尘扫房子”。北方叫扫房，南方叫掸尘。室内屋外，房间屋后，彻底进行打扫、衣被用具、洗刷一新，干干净净地迎新春。扫房的时候，要将家中的家具一律搬到庭院，将室内腾空，随后对室内的边边角角进行清扫。过去，老北京人住的房子一般都是纸糊的顶棚，窗户上糊的窗户纸。这些纸历经一年难免破旧，所以扫房时一般要重新裱糊顶棚和窗户，并对墙面进行粉刷。在粉刷和裱糊过程中，主人还会贴上新的年画和窗花。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9Kh-tt-kBg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="355" id="B2d-TL-Pw1"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="B2d-TL-Pw1"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="B2d-TL-Pw1"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Kg6-dp-p9Q" secondAttribute="trailing" id="71I-jg-3tl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Kh-tt-kBg" secondAttribute="trailing" constant="-13" id="73n-9G-ubm"/>
+                            <constraint firstItem="Kg6-dp-p9Q" firstAttribute="leading" secondItem="jUF-dN-ByZ" secondAttribute="leading" id="FET-Ey-V9n"/>
+                            <constraint firstItem="Kg6-dp-p9Q" firstAttribute="top" secondItem="qDT-gs-Yvx" secondAttribute="bottom" id="U9x-6W-cns"/>
+                            <constraint firstItem="9Kh-tt-kBg" firstAttribute="top" secondItem="Kg6-dp-p9Q" secondAttribute="bottom" constant="8" symbolic="YES" id="Uuq-7a-kmb"/>
+                            <constraint firstItem="Kg6-dp-p9Q" firstAttribute="leading" secondItem="9Kh-tt-kBg" secondAttribute="leading" id="hdg-6t-JN5"/>
+                            <constraint firstItem="9Kh-tt-kBg" firstAttribute="bottom" secondItem="QZf-oU-Dj8" secondAttribute="top" id="lSM-TL-foC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Kg6-dp-p9Q"/>
+                                <exclude reference="9Kh-tt-kBg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="73n-9G-ubm"/>
+                                <exclude reference="Uuq-7a-kmb"/>
+                                <exclude reference="lSM-TL-foC"/>
+                                <exclude reference="71I-jg-3tl"/>
+                                <exclude reference="FET-Ey-V9n"/>
+                                <exclude reference="U9x-6W-cns"/>
+                                <exclude reference="hdg-6t-JN5"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Kg6-dp-p9Q"/>
+                                <include reference="9Kh-tt-kBg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="73n-9G-ubm"/>
+                                <include reference="Uuq-7a-kmb"/>
+                                <include reference="lSM-TL-foC"/>
+                                <include reference="71I-jg-3tl"/>
+                                <include reference="FET-Ey-V9n"/>
+                                <include reference="U9x-6W-cns"/>
+                                <include reference="hdg-6t-JN5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="习俗" id="TLa-sw-8oy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oU8-Np-7tB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1975.5" y="654"/>
+        </scene>
+        <!--来历-->
+        <scene sceneID="R5r-4g-4x9">
+            <objects>
+                <viewController id="S0r-gA-lNO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eY7-WI-0cc"/>
+                        <viewControllerLayoutGuide type="bottom" id="BsW-BV-46j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BlQ-7z-IBD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mzm-Fg-RgL">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">        腊月二十四“扫房”的习俗由来已久，有资料说：据《吕氏春秋》记载，我国在尧舜时代就有春节扫尘的风俗。还有个传说：传说人的身上都附有一个三尸神，他经常给玉皇大帝打小报告，说人间的坏话。在很短的时间内，玉皇大帝就收到了他99999张密报，说人间要谋反天庭。玉帝看后大怒，立即召见三尸神，命他把说玉帝坏话的人家墙上写上他们的罪行，再让蜘蛛结张大网，挂在屋檐下。玉帝又命王灵官除夕之夜下界，凡见到三尸神做了记号的人家，就满门抄斩。三尸神见阴谋将要得逞，自己可以独占美好的人间了，就飞快下凡，将每户人家的墙上都做了记号。灶君发现了三尸神的阴谋，急忙找来各家的灶王爷商量对策：从送灶之日起，在除夕前家家打扫得干干净净。等王灵官大年夜奉旨下界察看时，发现家家户户都很干净，没有任何标记，百姓安分守己，辛勤劳动。玉帝从王灵官和灶君嘴里得知三尸神冤枉好人，怒火万丈，将三尸神永押于牢。从此，心地善良的灶君受到大家的拥戴，每年腊月二十三都要祭灶，二十四扫尘也随之成为汉族民间的习俗。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0H9-nJ-Nrs">
+                                <rect key="frame" x="20" y="20" width="400" height="731"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0H9-nJ-Nrs" secondAttribute="trailing" id="2Sy-5u-Ol3"/>
+                            <constraint firstItem="mzm-Fg-RgL" firstAttribute="leading" secondItem="0H9-nJ-Nrs" secondAttribute="leading" id="TPj-m8-kr6"/>
+                            <constraint firstItem="0H9-nJ-Nrs" firstAttribute="top" secondItem="eY7-WI-0cc" secondAttribute="bottom" constant="403" id="VeH-e1-OXh"/>
+                            <constraint firstItem="0H9-nJ-Nrs" firstAttribute="trailing" secondItem="mzm-Fg-RgL" secondAttribute="trailing" id="ZtK-zE-DN2"/>
+                            <constraint firstItem="BsW-BV-46j" firstAttribute="top" secondItem="0H9-nJ-Nrs" secondAttribute="bottom" constant="8" symbolic="YES" id="f1u-tv-tql"/>
+                            <constraint firstItem="mzm-Fg-RgL" firstAttribute="leading" secondItem="BlQ-7z-IBD" secondAttribute="leading" id="n7y-wA-4r1"/>
+                            <constraint firstItem="mzm-Fg-RgL" firstAttribute="bottom" secondItem="BsW-BV-46j" secondAttribute="top" id="opL-U1-qK1"/>
+                            <constraint firstItem="mzm-Fg-RgL" firstAttribute="top" secondItem="eY7-WI-0cc" secondAttribute="bottom" id="rl8-9t-rmg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="mzm-Fg-RgL"/>
+                                <exclude reference="0H9-nJ-Nrs"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="f1u-tv-tql"/>
+                                <exclude reference="TPj-m8-kr6"/>
+                                <exclude reference="n7y-wA-4r1"/>
+                                <exclude reference="opL-U1-qK1"/>
+                                <exclude reference="rl8-9t-rmg"/>
+                                <exclude reference="2Sy-5u-Ol3"/>
+                                <exclude reference="VeH-e1-OXh"/>
+                                <exclude reference="ZtK-zE-DN2"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="mzm-Fg-RgL"/>
+                                <include reference="0H9-nJ-Nrs"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="f1u-tv-tql"/>
+                                <include reference="TPj-m8-kr6"/>
+                                <include reference="n7y-wA-4r1"/>
+                                <include reference="opL-U1-qK1"/>
+                                <include reference="rl8-9t-rmg"/>
+                                <include reference="2Sy-5u-Ol3"/>
+                                <include reference="VeH-e1-OXh"/>
+                                <include reference="ZtK-zE-DN2"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="来历" id="ePC-lG-GZA" colorLabel="IBBuiltInLabel-Red"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b6w-PZ-3hP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1975.5" y="-8.25"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Bgc-T8-H1k">
+            <objects>
+                <tabBarController id="Qwa-q9-VKg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="XmW-SG-OnM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="S0r-gA-lNO" kind="relationship" relationship="viewControllers" id="7wh-bx-XkK"/>
+                        <segue destination="yXU-05-fUo" kind="relationship" relationship="viewControllers" id="KJj-0H-rQa"/>
+                        <segue destination="DtR-2m-rEL" kind="relationship" relationship="viewControllers" id="Rb9-lI-82B"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whH-fH-qWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1147.5" y="316.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="image1.jpg" width="600" height="397"/>
+        <image name="image2.jpg" width="460" height="450"/>
+        <image name="image3.jpg" width="440" height="306"/>
+    </resources>
 </document>
