@@ -15,7 +15,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        // 得到当前应用的版本号
+//        let infoDictionary = NSBundle.mainBundle()
+//        let currentAppVersion = infoDictionary["CFBundleShortVersionString"] as! String
+//        // 取出之前保存的版本号
+//        let userDefaults = NSUserDefaults.standardUserDefaults()
+//        let appVersion = userDefaults.stringForKey("appVersion")
+//        
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        
+//        //如果 appVersion 为 nil说明是第一次启动，如果 appVersion 不等于currentAppVersion 说明是更新了
+//        if appVersion == nil || appVersion != currentAppVersion {
+//            // 保存最新的版本号
+//            userDefaults.setValue(currentAppVersion, forKey: "appVersion")
+//            
+//            let guideViewController = storyboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+//            self.window?.rootViewController = guideViewController
+//        }
+//
+        
         return true
     }
 

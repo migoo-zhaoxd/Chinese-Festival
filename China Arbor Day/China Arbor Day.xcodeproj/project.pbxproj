@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955C64A31CB3A45C00C6AD2E /* GuideImage1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 955C64A21CB3A45C00C6AD2E /* GuideImage1.JPG */; };
+		955C64A51CB3A46D00C6AD2E /* GuideImage2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 955C64A41CB3A46D00C6AD2E /* GuideImage2.JPG */; };
+		955C64A71CB3A47600C6AD2E /* GuideImage3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 955C64A61CB3A47600C6AD2E /* GuideImage3.JPG */; };
+		955C64A91CB3BB6600C6AD2E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C64A81CB3BB6600C6AD2E /* WebViewController.swift */; };
+		955C64AC1CB3C16400C6AD2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955C64AB1CB3C16400C6AD2E /* Main.storyboard */; };
 		E8B292B01C888D5500776C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292AF1C888D5500776C67 /* AppDelegate.swift */; };
 		E8B292B21C888D5500776C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292B11C888D5500776C67 /* ViewController.swift */; };
-		E8B292B51C888D5500776C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B292B31C888D5500776C67 /* Main.storyboard */; };
 		E8B292B71C888D5500776C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B292B61C888D5500776C67 /* Assets.xcassets */; };
 		E8B292BA1C888D5500776C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B292B81C888D5500776C67 /* LaunchScreen.storyboard */; };
 		E8B292C51C888D5600776C67 /* China_Arbor_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B292C41C888D5600776C67 /* China_Arbor_DayTests.swift */; };
@@ -34,10 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		955C64A21CB3A45C00C6AD2E /* GuideImage1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GuideImage1.JPG; sourceTree = "<group>"; };
+		955C64A41CB3A46D00C6AD2E /* GuideImage2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GuideImage2.JPG; sourceTree = "<group>"; };
+		955C64A61CB3A47600C6AD2E /* GuideImage3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GuideImage3.JPG; sourceTree = "<group>"; };
+		955C64A81CB3BB6600C6AD2E /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		955C64AA1CB3C16400C6AD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B292AC1C888D5500776C67 /* China Arbor Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "China Arbor Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B292AF1C888D5500776C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B292B11C888D5500776C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E8B292B41C888D5500776C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B292B61C888D5500776C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B292B91C888D5500776C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B292BB1C888D5500776C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,10 +107,14 @@
 			children = (
 				E8B292AF1C888D5500776C67 /* AppDelegate.swift */,
 				E8B292B11C888D5500776C67 /* ViewController.swift */,
-				E8B292B31C888D5500776C67 /* Main.storyboard */,
+				955C64A81CB3BB6600C6AD2E /* WebViewController.swift */,
 				E8B292B61C888D5500776C67 /* Assets.xcassets */,
 				E8B292B81C888D5500776C67 /* LaunchScreen.storyboard */,
 				E8B292BB1C888D5500776C67 /* Info.plist */,
+				955C64AB1CB3C16400C6AD2E /* Main.storyboard */,
+				955C64A21CB3A45C00C6AD2E /* GuideImage1.JPG */,
+				955C64A41CB3A46D00C6AD2E /* GuideImage2.JPG */,
+				955C64A61CB3A47600C6AD2E /* GuideImage3.JPG */,
 			);
 			path = "China Arbor Day";
 			sourceTree = "<group>";
@@ -229,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955C64A71CB3A47600C6AD2E /* GuideImage3.JPG in Resources */,
+				955C64A31CB3A45C00C6AD2E /* GuideImage1.JPG in Resources */,
+				955C64A51CB3A46D00C6AD2E /* GuideImage2.JPG in Resources */,
+				955C64AC1CB3C16400C6AD2E /* Main.storyboard in Resources */,
 				E8B292BA1C888D5500776C67 /* LaunchScreen.storyboard in Resources */,
 				E8B292B71C888D5500776C67 /* Assets.xcassets in Resources */,
-				E8B292B51C888D5500776C67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8B292B21C888D5500776C67 /* ViewController.swift in Sources */,
+				955C64A91CB3BB6600C6AD2E /* WebViewController.swift in Sources */,
 				E8B292B01C888D5500776C67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +309,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E8B292B31C888D5500776C67 /* Main.storyboard */ = {
+		955C64AB1CB3C16400C6AD2E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E8B292B41C888D5500776C67 /* Base */,
+				955C64AA1CB3C16400C6AD2E /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../../The laba Rice Porridge Festival/The laba Rice Porridge Festival";
 			sourceTree = "<group>";
 		};
 		E8B292B81C888D5500776C67 /* LaunchScreen.storyboard */ = {
@@ -482,6 +499,7 @@
 				E8B292D61C888D5600776C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8B292D71C888D5600776C67 /* Build configuration list for PBXNativeTarget "China Arbor DayTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +508,7 @@
 				E8B292D91C888D5600776C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8B292DA1C888D5600776C67 /* Build configuration list for PBXNativeTarget "China Arbor DayUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +517,7 @@
 				E8B292DC1C888D5600776C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
